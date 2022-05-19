@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T15:05:34.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="Ltw55UePMkvt7OEPxfk-" version="18.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T15:21:20.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36 Edg/101.0.1210.47" etag="4gr3VU0V2rPl875FP5WS" version="18.0.8" type="github">
   <diagram id="3-kePJJToxtwlGHkT392" name="Page-1">
     <mxGraphModel dx="782" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-12" value="" style="orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;dashed=1;rounded=0;anchorPointDirection=1;startArrow=none;startFill=0;endArrow=none;endFill=0;" edge="1" parent="1" source="mgU4zUvvCpU1qY2SJODL-8" target="VPNqJDKoMjmUiBJRXa8h-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-13" value="category" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=default;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mgU4zUvvCpU1qY2SJODL-9">
+          <mxGeometry x="-0.0181" y="-1" relative="1" as="geometry">
+            <mxPoint x="600" y="218" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mgU4zUvvCpU1qY2SJODL-8" value="Item" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="320" y="160" width="160" height="134" as="geometry">
             <mxRectangle x="320" y="160" width="60" height="26" as="alternateBounds" />
@@ -17,6 +26,27 @@
         </mxCell>
         <mxCell id="mgU4zUvvCpU1qY2SJODL-11" value="+ isRestricted(): boolean" style="text;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="mgU4zUvvCpU1qY2SJODL-8" vertex="1">
           <mxGeometry y="100" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-1" value="Category" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-2" value="- name: string&#xa;- restricted: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VPNqJDKoMjmUiBJRXa8h-1">
+          <mxGeometry y="26" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="VPNqJDKoMjmUiBJRXa8h-1">
+          <mxGeometry y="60" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-4" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="VPNqJDKoMjmUiBJRXa8h-1">
+          <mxGeometry y="68" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-9" value="The isRestricted() method delegates a call to the Category and returns the result." style="shape=note;size=11;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="50" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-18" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="192" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VPNqJDKoMjmUiBJRXa8h-19" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="192" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
